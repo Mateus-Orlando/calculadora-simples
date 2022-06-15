@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #A1A7AD;
+}
+
+.calculadora {
+    background-color: #D0D3D8;
+}
+
+.margin {
+    padding-bottom: 50px;
+    padding-top: 5px;
+}
+
+.navbar-brand{
+   font-size: 45px;
+}
+
+.soma{
+    background-color:#A1A7AD;
+    padding-bottom: 100px;
+}
+
+.grid-container{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+.grid-container > button{
+  cursor: pointer;
+  font-size: 2em;
+  border: none;
+  outline: none;
+  background-color: #111;
+  color: #eee;
+}
+
+.grid-container > .operator{
+    background: #00008B;
+}
+
+.span-two{
+    grid-column: span 2;
+}
+
+.grid-container > .output{
+    grid-column: 1 / -1;
+    background: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.grid-container > .output > .previous-operand{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.5rem;
+}
+
+.grid-container .output > .current-operand{
+    color: white;
+    font-size: 2.5rem;
+}
+.container{
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+    min-width: 320px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a li ul{
+    text-decoration: none;  
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    background-color: #122a57;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: #fff;  
+}
+
+header .list-items{
+    display: flex;
+    max-width: 260px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-items li a{
+    color: #fff;
+    align-items: center;
+}
+header .menu{
+    justify-content: space-between;
+}

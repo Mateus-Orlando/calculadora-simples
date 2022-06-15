@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+<body>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+      <header>
+        <div class="container menu">
+            <div><h1>Calculadora</h1></div>
+            <ul class="list-items">
+                <li><a href="#Calculadora">Calculadora</a></li>
+                <li><a href="#Soma">Soma</a></li>
+                <li><a href="#Subtração">Subtração</a></li>
+            </ul>
+        </div>    
+    </header>
+    
+<section id = "Calculadora"> 
+    <div class="grid-container container-fluid calculadora text-center margin">
+        <h3>Calculadora</h3>
+
+        <div class="output">
+            <div class="previous-operand"></div>
+            <div class="current-operand"></div>
+        </div>
+            <button data-all-clear class="span-two">AC</button>
+            <button data-delete>DEL</button>
+            <button data-operator class="operator">/</button>
+            <button data-number>1</button>
+            <button data-number>2</button>
+            <button data-number>3</button>
+            <button data-operator class="operator">*</button>
+            <button data-number>4</button>
+            <button data-number>5</button>
+            <button data-number>6</button>
+            <button data-operator class="operator">+</button>
+            <button data-number>7</button>
+            <button data-number>8</button>
+            <button data-number>9</button>
+            <button data-operator class="operator">-</button>
+            <button data-number class="span-two">.</button>
+            <button data-number>0</button>
+            <button data-equals class="operator">=</button>   
+    </div> 
+</section>
+
+<selction id = "selction">
+    <div class = "container-fluid text-center margin soma">
+        <h2 class = "titulo-da-soma">Soma</h2>        
+    </div>
+</selction>
+   
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<script src="/assets/script.js"></script>
+</body>
+</html>
